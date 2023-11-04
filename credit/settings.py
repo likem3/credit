@@ -93,7 +93,8 @@ AUTH_USER_MODEL = 'creditapp.CustomUser'  # Replace 'app_name' with the name of 
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': '',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
